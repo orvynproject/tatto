@@ -3,7 +3,20 @@
  * Copyright 2016 ORVYN PROJECT, Inc.
  */
 
- $bg-dark: #000000;
- $bg-dark-trans: rgba(0,0,0,0.8);
+@font-face {
+	font-family: 'Varela';
+	src: url(../../assets/fonts/Varela-Regular.ttf);
+}
+@font-face {
+	font-family: 'Back-Black';
+	src: url(../../assets/fonts/Back-Black.ttf);
+}
+//---FONTS---
+$font-primary: 'Varela';
+$font-style: 'Back-Black';
 
- $color-light: #999999;
+$bg-dark: #000000;
+$bg-dark-trans: rgba(0,0,0,0.8);
+
+$color-light: #999999;
+$color-light-hover: #222222;

@@ -1,4 +1,25 @@
 html,
 body {
 	height: 100%;
+	font-family: $font-primary;
+}
+section {
+	padding: 100px;
+}
+section#about {
+	padding-bottom: 0;
+}
+a {
+	color: $color-light;
+	&:focus, 
+	&:hover {
+		text-decoration: none;
+		color: $color-light-hover;
+	}
+}
+.bg-dark {
+	background-color: $bg-dark;
+}
+.title {
+	font-family: $font-style;
 }
