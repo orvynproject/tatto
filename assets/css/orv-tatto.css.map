@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;GAGG;ACHH;;OAEQ;EACP,MAAM,EAAE,IAAI;;AAEb,eAAgB;EAAC,MAAM,EAAE,IAAI;;AAC7B,KAAM;EACL,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,mBAAmB,EAAE,MAAM;EAC3B,uBAAuB,EAAE,KAAK;EAC3B,oBAAoB,EAAE,KAAK;EAC3B,eAAe,EAAE,KAAK;EACtB,kBAAkB,EAAE,KAAK;;ACb7B;IACK;EACJ,MAAM,EAAE,IAAI;;ACFb,MAAO;EACN,MAAM,EAAE,MAAM",
+"sources": ["../styles/variables.scss","../styles/component/navbar.scss","../styles/component/container.scss","../styles/component/footer.scss"],
+"names": [],
+"file": "orv-tatto.css"
+}
