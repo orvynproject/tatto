@@ -13,3 +13,40 @@
     background-size: cover;
     -o-background-size: cover;
 }
+nav {
+	padding: 10px 0 10px;
+}
+.navbar-inverse {
+	background-color: $bg-dark-trans;
+	border-color: transparent;
+	.navbar-nav {
+		.active > a {
+			background: none;
+			&:focus {
+				background: none;
+			}
+			&:hover {
+				background: none;
+			}
+		}
+		.open > a {
+			background: none;
+			&:focus {
+				background: none;
+			}
+			&:hover {
+				background: none;
+			}
+		}
+		.dropdown-menu {
+			margin-top: 10px;
+			background-color: $bg-dark-trans;
+			li > a {
+				color: $color-light;
+				&:active {
+					background: none;
+				}
+			}
+		}
+	}
+}

@@ -19,6 +19,32 @@
   background-size: cover;
   -o-background-size: cover; }
 
+nav {
+  padding: 10px 0 10px; }
+
+.navbar-inverse {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-color: transparent; }
+  .navbar-inverse .navbar-nav .active > a {
+    background: none; }
+    .navbar-inverse .navbar-nav .active > a:focus {
+      background: none; }
+    .navbar-inverse .navbar-nav .active > a:hover {
+      background: none; }
+  .navbar-inverse .navbar-nav .open > a {
+    background: none; }
+    .navbar-inverse .navbar-nav .open > a:focus {
+      background: none; }
+    .navbar-inverse .navbar-nav .open > a:hover {
+      background: none; }
+  .navbar-inverse .navbar-nav .dropdown-menu {
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.8); }
+    .navbar-inverse .navbar-nav .dropdown-menu li > a {
+      color: #999999; }
+      .navbar-inverse .navbar-nav .dropdown-menu li > a:active {
+        background: none; }
+
 html,
 body {
   height: 100%; }
