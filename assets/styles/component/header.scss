@@ -1,0 +1,28 @@
+.bg-img-top {
+	background-position: center;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-filter: grayscale(50%);
+    -ms-filter: grayscale(50%);
+    -apple-filter: grayscale(50%);
+    filter: grayscale(50%);
+}
+
+.breadcrumb {
+	margin-top: 120px;
+	background: none;
+	li > a {
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		&:hover {
+			color: $color-light-hover;
+		}
+	}
+	.active {
+		color: white;
+		font-size: 18px;
+	}
+}

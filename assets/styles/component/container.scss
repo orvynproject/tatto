@@ -24,3 +24,27 @@ a {
 .title {
 	font-family: $font-style;
 }
+.no-padding {
+	padding: 0;
+}
+.no-gutter > [class*=col-] {
+	padding-right: 0;
+	padding-left: 0;
+}
+.pagination {
+	margin: 50px 0 40px;
+	li > a {
+		color: $color-light;
+		&:focus, &:hover {
+			color: $color-light-hover;
+		}
+	}
+	li.active > a {
+		background-color: $color-light;
+		border-color: $color-light;
+		&:focus, &:hover {
+			background-color: $color-light-hover;
+			border-color: $color-light-hover;
+		}
+	}
+}
